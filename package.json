@@ -1,0 +1,24 @@
+{
+  "name": "smtp-server-",
+  "version": "1.0.0",
+  "description": "SMTP Server Open Source",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xRoS-200/SMTP-Server-.git"
+  },
+  "author": "Rohit Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xRoS-200/SMTP-Server-/issues"
+  },
+  "homepage": "https://github.com/0xRoS-200/SMTP-Server-#readme",
+  "dependencies": {
+    "@types/smtp-server": "^3.5.10",
+    "smtp-server": "^3.13.6"
+  }
+}
