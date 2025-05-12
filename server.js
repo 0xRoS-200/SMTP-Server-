@@ -6,12 +6,13 @@ const USER = process.env.SMTP_USER;
 const PASSWORD = process.env.SMTP_PASSWORD;
 
 const server = new SMTPServer({
+    secure: false,
     allowInsecureAuth: true,
     authOptional: false,
 
     onAuth(auth, session, callback) {
         const { username, password } = auth;
-        
+
         // Basic username/password check
         if (username === USER && password === PASSWORD) {
             console.log(`[INFO] Auth successful for user ${username}`);
