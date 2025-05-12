@@ -2,7 +2,7 @@
   "name": "smtp-server-",
   "version": "1.0.0",
   "description": "SMTP Server Open Source",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "send": "node client.js"
