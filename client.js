@@ -18,7 +18,7 @@ async function sendMail() {
     try {
         const info = await transporter.sendMail({
             from: `"Rohit Singh" <${process.env.SMTP_USER}>`,
-            to: "recipient@example.com",
+            to: "official.rohitsingh22@gmail.com",
             subject: "Test Email",
             text: "This is a test message from my custom SMTP server.",
             html: "<b>This is a test message from my custom SMTP server.</b>"
