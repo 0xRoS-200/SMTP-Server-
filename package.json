@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "SMTP Server Open Source",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "send": "node client.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/0xRoS-200/SMTP-Server-#readme",
   "dependencies": {
-    "@types/smtp-server": "^3.5.10",
+    "dotenv": "^16.5.0",
+    "nodemailer": "^7.0.3",
     "smtp-server": "^3.13.6"
   }
 }
